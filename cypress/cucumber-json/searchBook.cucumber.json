@@ -31,7 +31,7 @@
             "name": "the user is logged in",
             "result": {
               "status": "failed",
-              "duration": 2164000000,
+              "duration": 2203000000,
               "error_message": "CypressError: `cy.type()` cannot accept an empty string. You need to actually type something.\n    at Context.type (https://www.perlego.com/__cypress/runner/cypress_runner.js:134035:17)\n    at Context.<anonymous> (https://www.perlego.com/__cypress/runner/cypress_runner.js:150696:21)\nFrom Your Spec Code:\n    at Context.eval (https://www.perlego.com/__cypress/tests?p=cypress/support/index.js:22:46)"
             }
           },
