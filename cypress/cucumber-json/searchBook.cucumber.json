@@ -8,11 +8,15 @@
     "uri": "searchBook.feature",
     "elements": [
       {
-        "id": "search-a-book-and-verify-the-number--of-books;the-user-searches-a-book-and-result-appears-with-number-of-books-found",
+        "id": "search-a-book-and-verify-the-number--of-books;user-searches-a-book-by-keyword-and-result-appears-with-number-of-books-found",
         "keyword": "Scenario",
         "line": 4,
-        "name": "the user searches a book and result appears with number of books found",
+        "name": "User searches a book by keyword and result appears with number of books found",
         "tags": [
+          {
+            "name": "@books",
+            "line": 3
+          },
           {
             "name": "@search",
             "line": 3
@@ -27,7 +31,7 @@
             "name": "the user is logged in",
             "result": {
               "status": "passed",
-              "duration": 40709000000
+              "duration": 9949000000
             }
           },
           {
@@ -37,7 +41,7 @@
             "name": "the user enters \"Software testing\" in to the searchbox",
             "result": {
               "status": "passed",
-              "duration": 5919000000
+              "duration": 7267000000
             }
           },
           {
@@ -47,7 +51,7 @@
             "name": "the result should contain \"Software testing\" keyword",
             "result": {
               "status": "passed",
-              "duration": 597000000
+              "duration": 1720000000
             }
           },
           {
@@ -57,7 +61,7 @@
             "name": "verify that number of books is equal to 641",
             "result": {
               "status": "passed",
-              "duration": 400000000
+              "duration": 54000000
             }
           }
         ]

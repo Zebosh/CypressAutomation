@@ -1,6 +1,6 @@
 Feature: Reading list
-
-Scenario:Create new reading list
+@books @readingList
+Scenario: User creates a new reading list
 Given the user is logged in
 When the user enters "Javascript" in to the searchbox
 And the user clicks "in the last year"

@@ -1,6 +1,7 @@
 Feature: Add book to favourites
 
-Scenario: verify that book is added to favourites 
+@books @favourites
+Scenario: User searches a book and addes it to favourites 
 Given the user is logged in
 When the user enters "Cypress" in to the searchbox
 And the user chooses publication date

@@ -8,81 +8,90 @@
     "uri": "addFavourites.feature",
     "elements": [
       {
-        "id": "add-book-to-favourites;verify-that-book-is-added-to-favourites",
+        "id": "add-book-to-favourites;user-searches-a-book-and-addes-it-to-favourites",
         "keyword": "Scenario",
-        "line": 3,
-        "name": "verify that book is added to favourites",
-        "tags": [],
+        "line": 4,
+        "name": "User searches a book and addes it to favourites",
+        "tags": [
+          {
+            "name": "@books",
+            "line": 3
+          },
+          {
+            "name": "@favourites",
+            "line": 3
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "the user is logged in",
             "result": {
               "status": "passed",
-              "duration": 4859000000
+              "duration": 13056000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
+            "line": 6,
             "name": "the user enters \"Cypress\" in to the searchbox",
             "result": {
               "status": "passed",
-              "duration": 5732000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "the user chooses publication date",
-            "result": {
-              "status": "passed",
-              "duration": 2212000000
+              "duration": 7762000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "the user enters author name \"Narayanan Palani\"",
+            "name": "the user chooses publication date",
             "result": {
               "status": "passed",
-              "duration": 1142000000
+              "duration": 8197000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "the user clicks to book \"Automated Software Testing with Cypress\"",
+            "name": "the user enters author name \"Narayanan Palani\"",
             "result": {
               "status": "passed",
-              "duration": 672000000
+              "duration": 2186000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
+            "name": "the user clicks to book \"Automated Software Testing with Cypress\"",
+            "result": {
+              "status": "passed",
+              "duration": 1506000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
             "name": "the user clicks \"Add to favourites\" button",
             "result": {
               "status": "passed",
-              "duration": 838000000
+              "duration": 6618000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
+            "line": 11,
             "name": "verify \"Automated Software Testing with Cypress\" is appeared in My Favourite Books section",
             "result": {
               "status": "passed",
-              "duration": 3202000000
+              "duration": 6227000000
             }
           }
         ]
