@@ -1,5 +1,9 @@
 # Cypress BDD Automation (Cucumber)
 
+_Prepared by Zebo Narimanova (QA Test Engineer)_
+
+[Linkedin Profile](https://www.linkedin.com/in/zebonarimanova/)
+
 ### Task
 ---
 * Create 3 automation test cases/scenarios using BDD approach.
