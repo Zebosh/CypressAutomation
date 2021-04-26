@@ -30,8 +30,9 @@
             "line": 5,
             "name": "the user is logged in",
             "result": {
-              "status": "passed",
-              "duration": 9949000000
+              "status": "failed",
+              "duration": 2164000000,
+              "error_message": "CypressError: `cy.type()` cannot accept an empty string. You need to actually type something.\n    at Context.type (https://www.perlego.com/__cypress/runner/cypress_runner.js:134035:17)\n    at Context.<anonymous> (https://www.perlego.com/__cypress/runner/cypress_runner.js:150696:21)\nFrom Your Spec Code:\n    at Context.eval (https://www.perlego.com/__cypress/tests?p=cypress/support/index.js:22:46)"
             }
           },
           {
@@ -40,8 +41,7 @@
             "line": 6,
             "name": "the user enters \"Software testing\" in to the searchbox",
             "result": {
-              "status": "passed",
-              "duration": 7267000000
+              "status": "skipped"
             }
           },
           {
@@ -50,8 +50,7 @@
             "line": 7,
             "name": "the result should contain \"Software testing\" keyword",
             "result": {
-              "status": "passed",
-              "duration": 1720000000
+              "status": "skipped"
             }
           },
           {
@@ -60,8 +59,7 @@
             "line": 8,
             "name": "verify that number of books is equal to 641",
             "result": {
-              "status": "passed",
-              "duration": 54000000
+              "status": "skipped"
             }
           }
         ]
