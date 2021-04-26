@@ -1,0 +1,15 @@
+{    
+        "env":{
+             "url": "https://www.perlego.com/"   
+        },
+        
+        "chromeWebSecurity":true,
+        "defaultCommandTimeout":5000,
+        "pageLoadTimeout":60000,
+        "reporter": "mochawesome",
+
+        "testFiles": "**/*.feature"
+     
+        
+        }
+

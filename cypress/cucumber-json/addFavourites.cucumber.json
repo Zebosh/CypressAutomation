@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Add book to favourites",
+    "line": 1,
+    "id": "add-book-to-favourites",
+    "tags": [],
+    "uri": "addFavourites.feature",
+    "elements": [
+      {
+        "id": "add-book-to-favourites;verify-that-book-is-added-to-favourites",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "verify that book is added to favourites",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is logged in",
+            "result": {
+              "status": "passed",
+              "duration": 4859000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user enters \"Cypress\" in to the searchbox",
+            "result": {
+              "status": "passed",
+              "duration": 5732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user chooses publication date",
+            "result": {
+              "status": "passed",
+              "duration": 2212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user enters author name \"Narayanan Palani\"",
+            "result": {
+              "status": "passed",
+              "duration": 1142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user clicks to book \"Automated Software Testing with Cypress\"",
+            "result": {
+              "status": "passed",
+              "duration": 672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user clicks \"Add to favourites\" button",
+            "result": {
+              "status": "passed",
+              "duration": 838000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "verify \"Automated Software Testing with Cypress\" is appeared in My Favourite Books section",
+            "result": {
+              "status": "passed",
+              "duration": 3202000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

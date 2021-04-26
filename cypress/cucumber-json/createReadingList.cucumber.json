@@ -1,0 +1,102 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Create a reading list",
+    "line": 1,
+    "id": "create-a-reading-list",
+    "tags": [],
+    "uri": "createReadingList.feature",
+    "elements": [
+      {
+        "id": "create-a-reading-list;user-creates-new-reading-list",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "user creates new reading list",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is logged in",
+            "result": {
+              "status": "passed",
+              "duration": 4525000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user enters \"Javascript\" in to the searchbox",
+            "result": {
+              "status": "passed",
+              "duration": 5895000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks \"in the last year\"",
+            "result": {
+              "status": "passed",
+              "duration": 2270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user chooses topic \"Quality Assurance & Testing\"",
+            "result": {
+              "status": "passed",
+              "duration": 2578000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user chooses first book from list",
+            "result": {
+              "status": "passed",
+              "duration": 594000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user clicks add to reading list button",
+            "result": {
+              "status": "passed",
+              "duration": 709000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user enters \"Javascript books\" list name and cliks add button",
+            "result": {
+              "status": "passed",
+              "duration": 2979000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "verify that the \"Javascript books\" list is appeared in \"My library\" section",
+            "result": {
+              "status": "passed",
+              "duration": 1099000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

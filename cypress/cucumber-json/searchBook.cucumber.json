@@ -1,0 +1,67 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search a book and verify the number  of books",
+    "line": 1,
+    "id": "search-a-book-and-verify-the-number--of-books",
+    "tags": [],
+    "uri": "searchBook.feature",
+    "elements": [
+      {
+        "id": "search-a-book-and-verify-the-number--of-books;the-user-searches-a-book-and-result-appears-with-number-of-books-found",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "the user searches a book and result appears with number of books found",
+        "tags": [
+          {
+            "name": "@search",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is logged in",
+            "result": {
+              "status": "passed",
+              "duration": 40709000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters \"Software testing\" in to the searchbox",
+            "result": {
+              "status": "passed",
+              "duration": 5919000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the result should contain \"Software testing\" keyword",
+            "result": {
+              "status": "passed",
+              "duration": 597000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "verify that number of books is equal to 641",
+            "result": {
+              "status": "passed",
+              "duration": 400000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
